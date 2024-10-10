@@ -22,4 +22,3 @@ if extra_cheese=="Y":
     bill+=1
     print("The Total Bill is","$",bill)
 
-
