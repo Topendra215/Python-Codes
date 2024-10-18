@@ -1,4 +1,5 @@
 import random
+import art
 def deal_card():
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     card = random.choice(cards)
@@ -34,7 +35,7 @@ def compare(u_score, c_score):
 
 
 def play_game():
-    print(logo)
+    print(art.logo)
     user_cards = []
     computer_cards = []
     computer_score = -1
